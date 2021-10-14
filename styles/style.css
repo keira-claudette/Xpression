@@ -6,7 +6,7 @@ font-family: 'Montserrat', sans-serif;
 .container {
     display:grid;
     grid-template-columns: auto, auto, auto, auto, auto;
-    background: white;
+    background: black;
     margin-left: 20px;
     margin-right: 20px;
 }
