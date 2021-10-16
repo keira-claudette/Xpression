@@ -7,13 +7,14 @@
     <title>Xpression</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/6dcb0c4874.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--New font-->   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--New user icon-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type='text/javascript' src='styles/main.js'></script>   
 </head>
-  <body>
+  <body class="body">
       <header class="page_header">
           <img src="Images/Xpress it!.png" class="logo">
           <form class="search_bar">
@@ -22,6 +23,9 @@
           </form>
           <!--<i class="fas fa-user-astronaut" id=user_icon></i>-->
           <i class="large material-icons" id=user_icon>account_circle</i>
+          <iframe src="https://giphy.com/embed/t9AygAb8j5LHi" width="160" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          
+
       </header>
       <main>
 
@@ -31,19 +35,10 @@
             <button class="trending">Trending</button>
           </div>
           <div class="container">
-            <div class="row">
-              <div class="col">GIF1</div>
-              <div class="col">GIF2</div>
-              <div class="col">GIF3</div>
-              <div class="col">GIF4</div>
-              <div class="col">GIF5</div>
+            <div class="row" id="row1">
             </div>
-            <div class="row">
-                <div class="col">GIF6</div>
-                <div class="col">GIF7</div>
-                <div class="col">GIF8</div>
-                <div class="col">GIF9</div>
-                <div class="col">GIF10</div>
+            <div class="row" id="row2">
+
             </div>
           </div>
         
