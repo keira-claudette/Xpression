@@ -9,8 +9,8 @@ from flask_login import LoginManager, UserMixin, login_user, login_required, log
 import requests
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'ea9bd0117494a936183776a12abdfd00'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////mnt/c/Users/antho/Documents/login-example/database.db'
-bootstrap = Bootstrap(app)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/franol/Xpression/database.db'
+Bootstrap(app)
 db = SQLAlchemy(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
@@ -26,6 +26,7 @@ class User(UserMixin, db.Model):
 def load_user(user_id):
     return User.query.get(int(user_id))
 
+
 class LoginForm(FlaskForm):
     username = StringField('username', validators=[InputRequired(), Length(min=4, max=15)])
     password = PasswordField('password', validators=[InputRequired(), Length(min=8, max=80)])
@@ -37,9 +38,10 @@ class RegisterForm(FlaskForm):
     password = PasswordField('password', validators=[InputRequired(), Length(min=8, max=80)])
 
 
-@app.route('/')
+@app.route('/index')
+@login_required
 def index():
-    return render_template('index.html')
+    return render_template('index.html', name=current_user.username)
 
 @app.route('/search', methods=['GET'] )
 def search():
@@ -63,10 +65,8 @@ def login():
                 return redirect(url_for('index'))
 
         return '<h1>Invalid username or password</h1>'
-        #return '<h1>' + form.username.data + ' ' + form.password.data + '</h1>'
-
+        #return '<h1>' + form.username.data + '' + form.password.data + '</h1>'
     return render_template('login.html', form=form)
-
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
     form = RegisterForm()
@@ -76,16 +76,14 @@ def signup():
         new_user = User(username=form.username.data, email=form.email.data, password=hashed_password)
         db.session.add(new_user)
         db.session.commit()
-
-        return '<h1>New user has been created!</h1>'
-        #return '<h1>' + form.username.data + ' ' + form.email.data + ' ' + form.password.data + '</h1>'
-
+        return '<h1> New User has been created!</h1>'
+        #return '<h1>' + form.username.data + '' + form.email.data + '' + form.password.data + '</h1>'
     return render_template('signup.html', form=form)
 
 @app.route('/user')
 @login_required
 def user():
-    return render_template('user.html', name=current_user.username)
+    return render_template('user.html')
 
 @app.route('/logout')
 @login_required
