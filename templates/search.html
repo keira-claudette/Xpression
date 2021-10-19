@@ -22,26 +22,15 @@
             <button type="submit"><b id="button_search">Search</b></button>
           </form>
           <nav>
-              <ul class="nav_bar">
+            <ul class="nav_bar">
+                <li><a href="/">HOME</a></li>
                 <li><a href="/login">LOGIN</a></li>
                 <li><a href="/signup">SIGN-UP</a></li>
-                  <li><iframe src="https://giphy.com/embed/t9AygAb8j5LHi" width="160" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></li>
-              </ul>
-          </nav>
+                <li><a href="{{ url_for('logout') }}">LOG OUT</a></li>
 
-          <!--
-              <img src="../static/Images/Xpress it!.png it!.png" class="logo">
-          <form class="search_bar" action="/search">
-            <input type="text" placeholder="type anything..." name="search">
-            <button type="submit"><b id="button_search">Search</b></button>
-          </form>
-          
-          
-          <!--<i class="fas fa-user-astronaut" id=user_icon></i>
-          <i class="large material-icons" id=user_icon>account_circle</i>
-          <iframe src="https://giphy.com/embed/t9AygAb8j5LHi" width="160" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-          -->
-
+                <li><iframe src="https://giphy.com/embed/t9AygAb8j5LHi" width="160" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></li>
+            </ul>
+        </nav>
       </header>
       <main>
           <div>

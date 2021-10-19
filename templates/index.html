@@ -26,15 +26,14 @@
                 <li><a href="/">HOME</a></li>
                 <li><a href="/login">LOGIN</a></li>
                 <li><a href="/signup">SIGN-UP</a></li>
+                <li><a href="{{ url_for('logout') }}">LOG OUT</a></li>
 
                 <li><iframe src="https://giphy.com/embed/t9AygAb8j5LHi" width="160" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></li>
-            </ul>
+                <p class="page-header">{{ name }}</p>
+              </ul>
         </nav>
     </header>
       <main>
-
-            <li><a href="{{ url_for('logout') }}">Log Out</a></li>
-           <h1 class="page-header">Welcome, {{ name }}</h1>
           <div>
             <button class="trending">Trending</button>
           </div>

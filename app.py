@@ -38,10 +38,15 @@ class RegisterForm(FlaskForm):
     password = PasswordField('password', validators=[InputRequired(), Length(min=8, max=80)])
 
 
-@app.route('/index')
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+'''@app.route('/index')
 @login_required
 def index():
     return render_template('index.html', name=current_user.username)
+'''
 
 @app.route('/search', methods=['GET'] )
 def search():
