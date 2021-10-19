@@ -12,31 +12,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--New user icon-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type='text/javascript' src='../static/sctipts/main.js'></script>   
+    <!--<script type='text/javascript' src='../static/sctipts/main.js'></script>-->   
 </head>
   <body class="body">
     <header class="page_header">
-      <img src="../static/Images/Xpress it!.png" class="logo">
-      <form class="search_bar" action="/search">
-          <input type="text" placeholder="type anything..." name="search">
-          <button type="submit"><b id="button_search">Search</b></button>
-        </form>
-        <nav>
-            <ul class="nav_bar">
-                <li><a href="/">HOME</a></li>
+        <img src="../static/Images/Xpress it!.png" class="logo">
+        <form class="search_bar" action="/search">
+            <input type="text" placeholder="type anything..." name="search">
+            <button type="submit"><b id="button_search">Search</b></button>
+          </form>
+          <nav>
+              <ul class="nav_bar">
                 <li><a href="/login">LOGIN</a></li>
                 <li><a href="/signup">SIGN-UP</a></li>
+                  <li><iframe src="https://giphy.com/embed/t9AygAb8j5LHi" width="160" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></li>
+              </ul>
+          </nav>
 
-                <li><iframe src="https://giphy.com/embed/t9AygAb8j5LHi" width="160" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></li>
-            </ul>
-        </nav>
-    </header>
+          <!--
+              <img src="../static/Images/Xpress it!.png it!.png" class="logo">
+          <form class="search_bar" action="/search">
+            <input type="text" placeholder="type anything..." name="search">
+            <button type="submit"><b id="button_search">Search</b></button>
+          </form>
+          
+          
+          <!--<i class="fas fa-user-astronaut" id=user_icon></i>
+          <i class="large material-icons" id=user_icon>account_circle</i>
+          <iframe src="https://giphy.com/embed/t9AygAb8j5LHi" width="160" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          -->
+
+      </header>
       <main>
           <div>
             <button class="trending">Trending</button>
           </div>
           <div class="container">
             <div class="row" id="row1">
+                {% for gif in urls %}
+                    <img src={{ gif }} alt="gif"/>
+                {% endfor %}
             </div>
             <div class="row" id="row2">
 

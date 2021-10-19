@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, request
 from flask_bootstrap import Bootstrap
 from flask_wtf import FlaskForm 
 from wtforms import StringField, PasswordField, BooleanField
@@ -6,7 +6,7 @@ from wtforms.validators import InputRequired, Email, Length
 from flask_sqlalchemy  import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
-
+import requests
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'ea9bd0117494a936183776a12abdfd00'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////mnt/c/Users/antho/Documents/login-example/database.db'
@@ -41,6 +41,16 @@ class RegisterForm(FlaskForm):
 def index():
     return render_template('index.html')
 
+@app.route('/search', methods=['GET'] )
+def search():
+    url = 'https://api.giphy.com/v1/gifs/search?q="' + request.args['search'] + '"&api_key=x91jNWIe6d8y2vIH4zrWtQ2dOqgpcsQD&q=&limit=25&offset=0&rating=g&lang=en'
+    resp = requests.get(url)
+    '''resp.json()["data"][0]["images"]["fixed_height"]["url"]'''
+    all = []
+    for i in range(len(resp.json()["data"])):
+        all.append(resp.json()["data"][i]["images"]["fixed_height"]["url"])
+    return render_template('search.html', urls=all)
+         
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
