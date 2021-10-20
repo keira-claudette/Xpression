@@ -34,12 +34,12 @@
       </header>
       <main>
           <div>
-            <button class="trending">Trending</button>
+            <button class="trending"><a href="/" class="trend">Trending</a></button>
           </div>
           <div class="container">
             <div class="row" id="row1">
                 {% for gif in urls %}
-                    <img src={{ gif }} alt="gif"/>
+                <div class="col"><img src={{ gif }} alt="gif"/></div>
                 {% endfor %}
             </div>
             <div class="row" id="row2">
