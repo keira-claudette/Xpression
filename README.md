@@ -1,4 +1,4 @@
-![Expression Logo](/static\Images\xpress_it-clear-bg-cropped.png)
+![Expression Logo](static\Images\xpress_it-clear-bg-cropped.png)
 
 <br>
 
