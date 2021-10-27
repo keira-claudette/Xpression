@@ -1,4 +1,4 @@
-<img src="./static/Images/xpressit.gif" width="160" height=auto/>
+<img src="/static/Images/xpressit.gif" width="160" height=auto/>
 <br>
 ###### Sometimes words aren't enough!
 
