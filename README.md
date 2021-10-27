@@ -1,5 +1,7 @@
-<img src="/static/Images/xpressit.gif" width="160" height=auto/>
+![Expression Logo](https://github.com/keira-claudette/Xpression/blob/main/static\Images\xpress_it-clear-bg-cropped.png?raw=true)
+
 <br>
+
 ###### Sometimes words aren't enough!
 
 Xpression is a web application that displays gifs to users.You do not have to be logged in to explore the appliation but if you do, then you will be able to save your favorites.
