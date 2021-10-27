@@ -1,4 +1,5 @@
 <img src="./static/Images/xpressit.gif" width="160" height=auto/>
+<br>
 ###### Sometimes words aren't enough!
 
 Xpression is a web application that displays gifs to users.You do not have to be logged in to explore the appliation but if you do, then you will be able to save your favorites.
