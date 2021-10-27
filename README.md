@@ -1,4 +1,4 @@
-![Expression Logo](https://github.com/keira-claudette/Xpression/blob/main/static\Images\xpress_it-clear-bg-cropped.png?raw=true)
+![Expression Logo](/static\Images\xpress_it-clear-bg-cropped.png)
 
 <br>
 
