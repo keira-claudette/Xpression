@@ -1,8 +1,5 @@
 # Xpression
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/1rdJiQh" data-context="false" ><a href="//imgur.com/a/1rdJiQh"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-<br>
-
 ###### Sometimes words aren't enough!
 <br>
 
