@@ -1,7 +1,6 @@
 # Xpression
 
-[Imgur](https://imgur.com/yiBpRf9)
-<br>
+<img src="https://imgur.com/yiBpRf9" width="160" height="auto"/>
 ###### Sometimes words aren't enough!
 <br>
 
