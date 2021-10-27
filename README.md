@@ -1,6 +1,6 @@
 # Xpression
 
-![Expression Logo](static\Images\xpress_it-clear-bg-cropped.png) <br>
+![Expression Logo](https://imgur.com/yiBpRf9) <br>
 ###### Sometimes words aren't enough!
 <br>
 
