@@ -1,6 +1,7 @@
 # Xpression
 
-![Expression Logo](https://imgur.com/yiBpRf9) <br>
+[Imgur](https://imgur.com/yiBpRf9)
+<br>
 ###### Sometimes words aren't enough!
 <br>
 
