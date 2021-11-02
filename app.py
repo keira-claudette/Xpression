@@ -20,13 +20,13 @@ login_manager.init_app(app)
 login_manager.login_view = 'login'
 
 class User(UserMixin, db.Model):
-	"""
-	user class
+    """
+	    user class
 		id = an integer that identify unique user
  		username= user name
 		email= accept email unique for all user
 		password = accept string
-	"""
+    """
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(15), unique=True)
     email = db.Column(db.String(50), unique=True)
@@ -34,12 +34,12 @@ class User(UserMixin, db.Model):
 
 @login_manager.user_loader
 def load_user(user_id):
-	""" a method to query through db"""
+    """ a method to query through db"""
     return User.query.get(int(user_id))
 
 
 class LoginForm(FlaskForm):
-	"""
+    """
 	class  login form
 	username = a string field cant be left blank validates input
 	password =  validates input and it inforces input
@@ -50,7 +50,7 @@ class LoginForm(FlaskForm):
     remember = BooleanField('remember me')
 
 class RegisterForm(FlaskForm):
-	"""
+    """
 	RegisterForm class that registers new users
 	email = accepts valid email address length of 50 if not gives error message
 	username = accepts valid email addres with limited charachter length
@@ -63,7 +63,7 @@ class RegisterForm(FlaskForm):
 
 @app.route('/')
 def index():
-	""" index route takes to home screen"""
+    """ index route takes to home screen"""
     return render_template('index.html')
 
 '''@app.route('/index')
@@ -74,7 +74,9 @@ def index():
 
 @app.route('/search', methods=['GET'] )
 def search():
-	""" Search route takes to GIPHY search servers and performs Get request """
+    """ search route recieves data from the html form susbmission and
+        makes a GET request to GIPHY for search word input
+    """
     url = 'https://api.giphy.com/v1/gifs/search?q="' + request.args['search'] + '"&api_key=x91jNWIe6d8y2vIH4zrWtQ2dOqgpcsQD&q=&limit=25&offset=0&rating=g&lang=en'
     resp = requests.get(url)
     '''resp.json()["data"][0]["images"]["fixed_height"]["url"]'''
@@ -85,7 +87,7 @@ def search():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-	""" a method to login the user to check that it querys the database for the values entered are similar"""
+    """ a method to login the user to check that it querys the database for the values entered are similar"""
     form = LoginForm()
 
     if form.validate_on_submit():
@@ -100,7 +102,7 @@ def login():
     return render_template('login.html', form=form)
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
-	""" from registration form takes in the input  using hashed_password templates it changes the inputed password to 16 digit secret key"""
+    """ from registration form takes in the input  using hashed_password templates it changes the inputed password to 16 digit secret key"""
     form = RegisterForm()
 
     if form.validate_on_submit():
@@ -115,13 +117,13 @@ def signup():
 @app.route('/user')
 @login_required
 def user():
-	""" a route to take to the user page"""
+    """ a route to take to the user page"""
     return render_template('user.html')
 
 @app.route('/logout')
 @login_required
 def logout():
-	""" these route requires a login to work and as it sign out it takes to the home screen"""
+    """ these route requires a login to work and as it sign out it takes to the home screen"""
     logout_user()
     return redirect(url_for('index'))
 

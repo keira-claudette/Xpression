@@ -37,7 +37,7 @@ This is our WSGI server.
 This is our database that saves user details after they sign up and track user's favorites.
 
 ## Launch 
-![Search demo](.\static\Images\search_demo.gif)
+<img src=".\static\Images\search_demo.gif"/>
 
 To interact with our application ...
 
