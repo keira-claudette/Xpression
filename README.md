@@ -37,7 +37,11 @@ This is our WSGI server.
 This is our database that saves user details after they sign up and track user's favorites.
 
 ## Launch 
-<img src=".\static\Images\search_demo.gif"/>
+<img src="static\Images\Xpression_search_demo.gif"/>
+
+Locally, clone this repository on your computer.
+Run app.py using python3
+Once the flask wsgi server is live, access the url displayed by flask from your browser. It's ````http://127.0.0.1:5000/```
 
 To interact with our application ...
 
