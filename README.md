@@ -37,7 +37,7 @@ This is our WSGI server.
 This is our database that saves user details after they sign up and track user's favorites.
 
 ## Launch 
-<img src="static\Images\Xpression_search_demo.gif"/>
+<img src="static\Images\Xpression -search_demo_Trimmed.gif"/>
 
 Locally, clone this repository on your computer.
 Run app.py using python3
