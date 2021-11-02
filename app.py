@@ -50,7 +50,7 @@ def index():
 
 @app.route('/search', methods=['GET'] )
 def search():
-    url = 'https://api.giphy.com/v1/gifs/search?q="' + request.args['search'] + '"&api_key=x91jNWIe6d8y2vIH4zrWtQ2dOqgpcsQD&q=&limit=25&offset=0&rating=g&lang=en'
+    url = 'https://api.giphy.com/v1/gifs/search?q="' + request.args['search'] + '"&api_key=x91jNWIe6d8y2vIH4zrWtQ2dOqgpcsQD&q=&limit=50&offset=0&rating=g&lang=en'
     resp = requests.get(url)
     '''resp.json()["data"][0]["images"]["fixed_height"]["url"]'''
     all = []
