@@ -1,6 +1,5 @@
 # Xpression
 
-![Expression Logo](static\Images\xpress_it-clear-bg-cropped.png) <br>
 ###### Sometimes words aren't enough!
 <br>
 
@@ -38,6 +37,8 @@ This is our WSGI server.
 This is our database that saves user details after they sign up and track user's favorites.
 
 ## Launch 
+![Search demo](.\static\Images\search_demo.gif)
+
 To interact with our application ...
 
 ###### [Xpression landing page on github pages](https://keira-claudette.github.io/xpression.github.io/)
