@@ -54,10 +54,11 @@ Here is Youtube demo on using the web app.
 
 #### Contributing
 - ###### Fraol Tolera
-[Github](https://github.com/Fraol123)
+[Github](https://github.com/Fraol123) <br>
 [LinkedIn]
+
 - ###### Claudette Mokeira
-[Github]](https://github.com/keira-claudette)
+[Github](https://github.com/keira-claudette) <br>
 [LinkedIn](https://www.linkedin.com/in/claudette-mokeira/)
 
 
@@ -69,6 +70,10 @@ Our web application is similar to:
 #### Licensing
 MIT License
 
-#### Blog post about our developing this web app
-[Here's a summary of our development journey]()
-###### [Xpression landing page on github pages](https://keira-claudette.github.io/xpression.github.io/)
+#### Blog post about the development cycle.
+To highlight the things we learnt in the process, each contributor wrote a blog. Find the links below.
+- [Claudette's Blog]()
+- [Fraol's Blog]()
+
+#### Landing page
+[Xpression landing page on github pages](https://claudettekeira.wixsite.com/xpression-landing)
