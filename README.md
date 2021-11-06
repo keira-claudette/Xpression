@@ -36,13 +36,39 @@ This is our WSGI server.
 ### database.db
 This is our database that saves user details after they sign up and track user's favorites.
 
-## Launch 
-<img src="static\Images\Xpression -search_demo_Trimmed.gif"/>
+## Installation
+<img src="static\Images\light.png"/>
 
 Locally, clone this repository on your computer.
 Run app.py using python3
 Once the flask wsgi server is live, access the url displayed by flask from your browser. It's ````http://127.0.0.1:5000/```
 
-To interact with our application ...
+To interact with our application visit this url
 
+## Usage
+Here is Youtube demo on using the web app.
+[![How to use expression](static\Images\Youtube_screenshot.png)](https://www.youtube.com/watch?v=MgIZWGZnXgE)
+
+##### How to search on Xpression
+<img src="static\Images\Xpression -search_demo_Trimmed.gif" alt="search demo">
+
+#### Contributing
+- ###### Fraol Tolera
+[Github](https://github.com/Fraol123)
+[LinkedIn]
+- ###### Claudette Mokeira
+[Github]](https://github.com/keira-claudette)
+[LinkedIn](https://www.linkedin.com/in/claudette-mokeira/)
+
+
+#### Related Projects
+Our web application is similar to:
+- Giphy
+- Tenor
+
+#### Licensing
+MIT License
+
+#### Blog post about our developing this web app
+[Here's a summary of our development journey]()
 ###### [Xpression landing page on github pages](https://keira-claudette.github.io/xpression.github.io/)
