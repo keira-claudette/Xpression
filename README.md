@@ -47,7 +47,7 @@ To interact with our application visit this url
 
 ## Usage
 Here is Youtube demo on using the web app.
-[![How to use expression](.\static\Images\Youtube_screenshot.png)](https://www.youtube.com/watch?v=MgIZWGZnXgE)
+[<img src="\static\Images\Youtube_screenshot.png"/>](https://www.youtube.com/watch?v=MgIZWGZnXgE)
 
 ##### How to search on Xpression
 <img src="static\Images\Xpression -search_demo_Trimmed.gif" alt="search demo">
@@ -76,4 +76,4 @@ To highlight the things we learnt in the process, each contributor wrote a blog.
 - [Fraol's Blog]()
 
 #### Landing page
-[Xpression landing page on github pages](https://claudettekeira.wixsite.com/xpression-landing)
+[Xpression landing page](https://claudettekeira.wixsite.com/xpression-landing)
