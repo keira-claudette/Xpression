@@ -81,3 +81,14 @@
     .trending:hover {
         background-color: orangered;
     }
+    .col {
+        border-bottom-style: solid;
+        border-right-style: solid;
+        border-right-color: thistle;
+        border-bottom-color: thistle;
+
+    }
+    .like {
+        width: 30px;
+        height: 30px;
+    }
