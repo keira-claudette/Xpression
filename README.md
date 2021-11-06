@@ -47,7 +47,7 @@ To interact with our application visit this url
 
 ## Usage
 Here is Youtube demo on using the web app.
-[![How to use expression](static\Images\Youtube_screenshot.png)](https://www.youtube.com/watch?v=MgIZWGZnXgE)
+[![How to use expression](.\static\Images\Youtube_screenshot.png)](https://www.youtube.com/watch?v=MgIZWGZnXgE)
 
 ##### How to search on Xpression
 <img src="static\Images\Xpression -search_demo_Trimmed.gif" alt="search demo">
