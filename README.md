@@ -36,13 +36,44 @@ This is our WSGI server.
 ### database.db
 This is our database that saves user details after they sign up and track user's favorites.
 
-## Launch 
-<img src="static\Images\Xpression -search_demo_Trimmed.gif"/>
+## Installation
+<img src="static\Images\light.png"/>
 
 Locally, clone this repository on your computer.
 Run app.py using python3
 Once the flask wsgi server is live, access the url displayed by flask from your browser. It's ````http://127.0.0.1:5000/```
 
-To interact with our application ...
+To interact with our application visit this url
 
-###### [Xpression landing page on github pages](https://keira-claudette.github.io/xpression.github.io/)
+## Usage
+Here is Youtube demo on using the web app.
+[<img src="\static\Images\Youtube_screenshot.png"/>](https://www.youtube.com/watch?v=MgIZWGZnXgE)
+
+##### How to search on Xpression
+<img src="static\Images\Xpression -search_demo_Trimmed.gif" alt="search demo">
+
+#### Contributing
+- ###### Fraol Tolera
+[Github](https://github.com/Fraol123) <br>
+[LinkedIn]
+
+- ###### Claudette Mokeira
+[Github](https://github.com/keira-claudette) <br>
+[LinkedIn](https://www.linkedin.com/in/claudette-mokeira/)
+
+
+#### Related Projects
+Our web application is similar to:
+- Giphy
+- Tenor
+
+#### Licensing
+MIT License
+
+#### Blog post about the development cycle.
+To highlight the things we learnt in the process, each contributor wrote a blog. Find the links below.
+- [Claudette's Blog]()
+- [Fraol's Blog]()
+
+#### Landing page
+[Xpression landing page](https://claudettekeira.wixsite.com/xpression-landing)
