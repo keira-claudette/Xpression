@@ -12,7 +12,7 @@ app = Flask(__name__)
 # creating a private key
 app.config['SECRET_KEY'] = 'ea9bd0117494a936183776a12abdfd00'
 # intialize the database 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/franol/Xpression/database.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////Xpression/database.db'
 Bootstrap(app)
 db = SQLAlchemy(app)
 login_manager = LoginManager()
