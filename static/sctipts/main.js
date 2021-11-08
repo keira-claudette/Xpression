@@ -15,7 +15,7 @@ $(function () {
             });
             $('div.col').append('<img class="like" src="../static/Images/heart.png" alt="You can like me"/>');
             $('img.like').click(function() {
-                alert('I see you liked me! I will save this for you ;)');
+                alert('I see you liked me! RIGHT CLICK to save me ;)');
             });
             $('button.more').click(function(){
                 var reads = 100;
