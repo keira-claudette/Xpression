@@ -63,7 +63,7 @@ Scan this QR code
 
 ## Contributing
 - ##### Fraol Tolera
-    [Github](https://github.com/Fraol123) [LinkedIn](https://github.com/Fraol123)
+    [Github](https://github.com/Fraol123) [LinkedIn](https://www.linkedin.com/in/fraol-tesfaye-mts/)
 
 - ##### Claudette Mokeira
     [Github](https://github.com/keira-claudette) [LinkedIn](https://www.linkedin.com/in/claudette-mokeira/)
