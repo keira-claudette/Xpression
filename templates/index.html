@@ -13,10 +13,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--New user icon-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type='text/javascript' src='../static/sctipts/main.js'></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">   
+    <link rel="shortcut icon" href="static\Images\favicon.ico" type="image/x-icon">  
 </head>
   <body class="body">
     <header class="page_header">
@@ -33,7 +30,7 @@
                 <li><a href="{{ url_for('logout') }}">LOG OUT</a></li>
 
                 <li><iframe src="https://giphy.com/embed/t9AygAb8j5LHi" width="160" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></li>
-                <p class="page-header">{{ name }}</p>
+                <p class="page-header">{{ username }}</p>
               </ul>
         </nav>
     </header>
