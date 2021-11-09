@@ -19,50 +19,57 @@ The main aim of this project is to get to work with APIs and to explore the whol
 - Sqlite3 (Database)
 
 ## Files
-### /Static
-- ##### /Images
+##### Static
+- ###### Images
 Contains the logo in different formats and icons only.
-- ##### /scripts
+- ###### scripts
 Contains main.js file that uses jquery to dynamically fetch and display content on the homepage.<br>
 Currently, the homepage displays trending gifs which change everyday or even every few hours.
-- ##### /styles
+- ###### styles
 This folder contains the css files for the different templates of the web application.
-- ##### /templates
+- ###### templates
 This contains html templates to be rendered using flask render_template in order to serve dynamic content and to enable user sign up and log in.
 
-### app.py
+##### app.py
 This is our WSGI server. 
 
-### database.db
+##### database.db
 This is our database that saves user details after they sign up and track user's favorites.
 
 ## Installation
 <img src="static\Images\light.png"/>
 
-Locally, clone this repository on your computer.
-Run app.py using python3
-Once the flask wsgi server is live, access the url displayed by flask from your browser. It's ````http://127.0.0.1:5000/```
-
-To interact with our application visit this url
+To interact with web app, [click here](https://expression.rocks/)
 
 ## Usage
-Here is Youtube demo on using the web app.
-[<img src="\static\Images\Youtube_screenshot.png"/>](https://www.youtube.com/watch?v=MgIZWGZnXgE)
+Scan this QR code
 
-##### How to search on Xpression
+<img src="static\Images\expression_scan_qr code.png" width="160" height=auto>
+
+##### OR
+
+**[click here to access the website](https://expression.rocks/)**
+
+## Demonstrations
+- Here is a Youtube demo on using the web app.
+
+[<img src="static\Images\Youtube_screenshot.png"/>](https://www.youtube.com/watch?v=MgIZWGZnXgE)
+
+<br>
+<br>
+
+- ##### How to search on Xpression
 <img src="static\Images\Xpression -search_demo_Trimmed.gif" alt="search demo">
 
-#### Contributing
-- ###### Fraol Tolera
-[Github](https://github.com/Fraol123) <br>
-[LinkedIn]
+## Contributing
+- ##### Fraol Tolera
+    [Github](https://github.com/Fraol123) [LinkedIn](https://github.com/Fraol123)
 
-- ###### Claudette Mokeira
-[Github](https://github.com/keira-claudette) <br>
-[LinkedIn](https://www.linkedin.com/in/claudette-mokeira/)
+- ##### Claudette Mokeira
+    [Github](https://github.com/keira-claudette) [LinkedIn](https://www.linkedin.com/in/claudette-mokeira/)
 
 
-#### Related Projects
+## Related Projects
 Our web application is similar to:
 - Giphy
 - Tenor
@@ -70,10 +77,14 @@ Our web application is similar to:
 #### Licensing
 MIT License
 
-#### Blog post about the development cycle.
+## Blog post about the development cycle.
 To highlight the things we learnt in the process, each contributor wrote a blog. Find the links below.
 - [Claudette's Blog]()
 - [Fraol's Blog]()
 
 #### Landing page
 [Xpression landing page](https://claudettekeira.wixsite.com/xpression-landing)
+
+&copy;copyright xpression
+<br>
+<img src="static\Images\xpress_it-clear-bg-cropped.png">
