@@ -51,7 +51,7 @@ Scan this QR code
 **[click here to access the website](https://expression.rocks/)**
 
 ## Demonstrations
-- Here is a Youtube demo on using the web app.
+- ###### Here is a Youtube demo on using the web app.
 
 [<img src="static\Images\Youtube_screenshot.png"/>](https://www.youtube.com/watch?v=MgIZWGZnXgE)
 
@@ -85,6 +85,6 @@ To highlight the things we learnt in the process, each contributor wrote a blog.
 #### Landing page
 [Xpression landing page](https://claudettekeira.wixsite.com/xpression-landing)
 
-&copy;copyright xpression
+###### &copy;copyright xpression
 <br>
 <img src="static\Images\xpress_it-clear-bg-cropped.png">
