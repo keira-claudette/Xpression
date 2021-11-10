@@ -79,7 +79,7 @@ MIT License
 
 ## Blog post about the development cycle.
 To highlight the things we learnt in the process, each contributor wrote a blog. Find the links below.
-- [Claudette's Blog]()
+- [Claudette's Blog](https://claudette-keira.medium.com/people-want-to-send-messages-building-the-expression-web-app-a-summary-cb2bf4a364f9)
 - [Fraol's Blog]()
 
 #### Landing page
